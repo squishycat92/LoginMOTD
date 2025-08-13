@@ -7,3 +7,9 @@ I highly recommend forking this repository and making your changes to personaliz
 ```shell
 curl -sS https://raw.githubusercontent.com/squishycat92/LoginMOTD/refs/heads/main/motd.sh >> ~/.zshrc
 ```
+
+> [!NOTE]
+> If you are updating from this repository, this will actually cause two MOTDs to be printed. In this case, you should delete the old version from `~/.zshrc`. Alternatively, if you have a completely unmodified `~/.zshrc` file, you can *replace* the file contents instead of *appending* to it.
+> ```shell
+> curl -sS https://raw.githubusercontent.com/squishycat92/LoginMOTD/refs/heads/main/motd.sh > ~/.zshrc
+> ```

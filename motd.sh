@@ -8,6 +8,7 @@ MAC_MODEL_ID=$(system_profiler SPHardwareDataType | awk -F ': ' '/Model Identifi
 
 echo ""
 echo "Welcome to $MACOS_VERSION ($KERNEL_VERSION) on $MAC_MODEL_NAME ($MAC_MODEL_ID)"
+echo ""
 echo " * Release Notes:     https://developer.apple.com/documentation/macos-release-notes"
 echo " * Support:           https://support.apple.com/mac"
 echo ""
